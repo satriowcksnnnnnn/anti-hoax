@@ -1,5 +1,6 @@
 import Navbar from "../component/Navbar";
 import Hero from "./Home/Hero";
+import Content from "./Home/Content";
 
 
 export default function App() {
@@ -7,6 +8,7 @@ export default function App() {
     <div>
       <Navbar/>
       <Hero/>
+      <Content/>
     </div>
   )
 }

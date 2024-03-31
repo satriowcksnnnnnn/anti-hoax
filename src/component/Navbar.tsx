@@ -7,12 +7,12 @@ export default function Navbar() {
       <div>
         <img src={Logo} alt="logo" width={118} height={68}/>
       </div> 
-      <div className='flex gap-14 items-center font-bold text-black text-2xl'>
-        <p>About Us</p>
-        <p>News</p>
-        <p>Information</p>
-        <p>Contact</p>
-      </div>
+        <ul className='flex gap-14 items-center font-bold text-black text-2xl'>
+          <li><a href="/about-us">About Us</a></li>
+          <li><a href="/news">News</a></li>
+          <li><a href="/information">Information</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
       <button className='bg-secondary px-[35px] rounded-[9px] w-[161px] h-[55px] font-bold border border-black'>
         Aduan
       </button>
